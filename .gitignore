@@ -1,0 +1,53 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Archivos privados y credenciales
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Bases de datos y archivos locales
+*.sqlite
+*.sqlite3
+*.sqlite-*
+/storage/logs/*
+/storage/framework/cache/data/*
+
+# Instrucciones locales de asistentes de desarrollo
+/AGENTS.md
+/CLAUDE.md
+
+# Respaldos y archivos temporales locales
+*.save
+*.bak
+*.backup-camara
+/resources/views/dashboard/index.blade.phpes
+/public/.well-known/acme-challenge/prueba.txt
