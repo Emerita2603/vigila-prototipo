@@ -459,7 +459,10 @@
                     hls = new Hls({
                         enableWorker: true,
                         lowLatencyMode: true,
-                        backBufferLength: 30
+                        liveSyncDurationCount: 2,
+                        liveMaxLatencyDurationCount: 5,
+                        maxLiveSyncPlaybackRate: 1.15,
+                        backBufferLength: 10
                     });
 
                     hls.loadSource(streamUrl);
